@@ -3,7 +3,7 @@ btSimpleSelect
 
 ##Bootstrap themed Select box
 
-This is a simplified version of silviomoreto's bootstrap-select.
+This is a simplified version of [silviomoreto's bootstrap-select](http://silviomoreto.github.io/bootstrap-select/).
 
 I noticed that when I had a large number of select elements in a view the page would take a while to load.  Removing some features seemed to do the trick.
 This is literally a Bootstrap 3 themed select box with no bells and whistles.
@@ -38,8 +38,9 @@ $(el).btSimpleSelect('val',['foo','bar']);
 ```
 **'refresh'**
 Refreshes the checkmarks to reflect the value of the relative <select> item.
+```js
 $(el).btSimpleSelect('refresh');
-
+```
 
 
 Any feedback is appreciated 
