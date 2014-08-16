@@ -19,7 +19,7 @@ $(el).btSimpleSelect({
 			multiple 	: true,   // multiple selectbox
 			values 		: '',     // default values
 			width 		: 0,      // Percent of parent element
-			listHeight	: 100,  //
+			listHeight	: 100,    // Height of the List Box (px)
 			checkIcon	: 'glyphicon glyphicon-ok',   // using @Twitter Bootstrap's glyphicon library
 			caret		: '<span class="caret pull-right" style="margin-top: 7px;"></span>' // default caret for button
 });
